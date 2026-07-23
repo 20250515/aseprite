@@ -14,7 +14,7 @@
 .vs
 .vscode
 tests/_test*
-build
+/build
 .build
 .deps
 CMakeSettings.json

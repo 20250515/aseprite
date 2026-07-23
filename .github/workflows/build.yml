@@ -20,8 +20,6 @@ jobs:
             scripting: noscripts
     steps:
     - uses: actions/checkout@v4
-      with:
-        submodules: 'recursive'
     - name: Install Dependencies
       if: runner.os == 'Linux'
       shell: bash
